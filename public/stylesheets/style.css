@@ -5,43 +5,43 @@
     border-bottom: 4px solid #3333cc;
     background-image: url(../images/wallpaper.jpeg);
     background-repeat: repeat;
-  }
-  
-  .container-fluid {
+}
+
+.container-fluid {
     margin-left: 0px;
     font: 20px 'Gill Sans', sans-serif;
-  }
-  
-  li {
+}
+
+li {
     display: inline-block;
-  }
-  
-  body {
+    }
+
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
-  .twoColumns {
+}
+
+.twoColumns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  
-  .responsive {
+}
+
+.responsive {
     max-width: 100%;
     height: auto;
-  }
-  
-  .right {
+}
+
+.right {
     max-width: 100%;
     margin-left: 28px;
-  }
-  
-  h2 {
+}
+
+h2 {
     color: purple;
     border: 2.4px solid goldenrod;
-  }
-  
-  .footer {
+}
+
+.footer {
     border: 2.4px solid purple;
     display: flex;
     align-items: center;
@@ -52,4 +52,14 @@
     height: 60px;
     background-image: url(../images/wallpaper2.jpeg);
     background-repeat: repeat;
-  }
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.connect {
+    color: #0072b1;
+}
